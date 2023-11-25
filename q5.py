@@ -1,6 +1,6 @@
 from sympy import Symbol, solve, tan
 
-c = 270
+c = 270 % 10
 
 def function(x):
     return (2**x) + (2 ** (4*x)) - 1 - c

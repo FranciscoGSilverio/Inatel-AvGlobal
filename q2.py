@@ -1,7 +1,7 @@
 from math import pi
 from sympy import Derivative, Integral, Symbol, cos
 
-c = 270
+c = 270 % 10
 
 def v(x):
     return 15 * 40 * pi * cos((40 * pi * x) - c)

@@ -1,6 +1,6 @@
 from sympy import Integral, Symbol, S
 
-c = 270
+c = 270 % 10
 
 def f(x):
     return x**3 - (4*(x**2)) + 5*x - c

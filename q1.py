@@ -1,6 +1,6 @@
 from sympy import Limit, Symbol, S
 
-c = 270
+c = 270 % 10
 
 def lim1(x):
     return (1 + ((c + 4) / x**3)) ** (x**3)
